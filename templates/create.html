@@ -1,0 +1,28 @@
+{% extends 'base_layout.html' %}
+
+{% block content %}
+    
+    <div class="create">
+        <h3>You have logged in so you can upload you favorite image(s) </h3>
+
+    </div>
+    <div class="main-block">
+        <h1>Add Image</h1>
+        <form enctype="multipart/form-data" action="" method="POST">
+          {% csrf_token %}
+          <hr><br><br>
+          <input type="file" multiple name="images" id="img" required/>
+          <br><br>
+          
+          <div class="btn-block">
+      <button type="submit" href="/"> Upload</button>
+          </div>
+        </form>
+        <div align="center">
+          <!-- <h3 style="color: black;"><a href="{{ img_urls }}">{{ img_urls }}</a></h3> -->
+          {%for url in img_urls%}
+          <img src="{{url}}" width = "200" height="150"/>
+          {% endfor%}
+        </div>
+      </div>
+{% endblock %}
