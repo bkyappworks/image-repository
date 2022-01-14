@@ -1,4 +1,4 @@
-# Image Repository - A place to upload your favorite images!
+# Image Repository - Upload your favorite images!
 <h2> An Image Repository which users can ADD one / bulk / enormous amount of images </h2>
 <li> Private permissions mechanism: Users have to sign up or log in before they can upload image(s) </li>
 <li> After users upload images, they will see the images they uploaded displayed on the screen and they can right click to access the images</li>
@@ -25,7 +25,10 @@
         <li> Limit these uploads in web server configuration to a reasonable size in order to prevent denial of service (DOS) attacks. 
         <li> Use .env to store secret_key
 </ul>
-
+<h2>Testing</h2>
+    <li> Test Models
+    <li> Test Urls
+    <li> Test Views
 
 <h2>Contact</h2>
 
