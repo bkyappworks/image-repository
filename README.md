@@ -1,8 +1,19 @@
 # Image Repository - Upload your favorite images!
-<h2> An Image Repository which users can ADD one / bulk / enormous amount of images </h2>
+<h2>Summer 2022 -  Shopify Developer Intern Challenge</h2>
+<h3> An Image Repository which users can ADD one / bulk / enormous amount of images </h2>
 <li> Private permissions mechanism: Users have to sign up or log in before they can upload image(s) </li>
 <li> After users upload images, they will see the images they uploaded displayed on the screen and they can right click to access the images</li>
 <li> With security mechanism uploading and stored images</li>
+
+<h2>How to run the App</h2>
+<p>Clone this repository</p>
+<p>Run pip install -r requirements.txt</p>
+<p>Run python manage.py runserver</p>
+<p>Open your browser and go to 127.0.0.1:80</p>
+
+<h2>How to run the Test</h2>
+<p>pip install django-utils-six</p>
+<p>Run python manage.py test image</p>
 
 <h2>Technology</h2>
 
