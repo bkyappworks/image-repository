@@ -1,4 +1,4 @@
-# Image Repository - A place you can upload your favorite images!
+# Image Repository - A place to upload your favorite images!
 <h2> An Image Repository which users can ADD one / bulk / enormous amount of images </h2>
 <li> Private permissions mechanism: Users have to sign up or log in before they can upload image(s) </li>
 <li> After users upload images, they will see the images they uploaded displayed on the screen and they can right click to access the images</li>
@@ -14,13 +14,13 @@
 
 <h2>Security</h2>
 <ul>
-    <li> Cross site scripting (XSS) 
+    <h3>1.  Cross site scripting (XSS) </h3>
         <li> Django templates escape specific characters which are particularly dangerous to HTML
-    <li> Cross site request forgery (CSRF)
+    <h3>2. Cross site request forgery (CSRF) </h3>
         <li> In any template that uses a POST form, use the csrf_token tag inside the <form> element if the form is for an internal URL
-    <li> Clickjacking
+    <h3>3. Clickjacking </h3>
         <li> Django contains clickjacking protection in the form of the X-Frame-Options middleware which in a supporting browser can prevent a site from being rendered inside a frame.
-    <li> User-uploaded content
+    <h3>4. User-uploaded content </h3>
         <li> Only logged in user can upload content
         <li> Limit these uploads in web server configuration to a reasonable size in order to prevent denial of service (DOS) attacks. 
         <li> Use .env to store secret_key
