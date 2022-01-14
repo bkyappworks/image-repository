@@ -1,6 +1,6 @@
 # Image Repository - Upload your favorite images!
 <h2>Summer 2022 -  Shopify Developer Intern Challenge</h2>
-<p>https://docs.google.com/document/d/1z9LZ_kZBUbg-O2MhZVVSqTmvDko5IJWHtuFmIu_Xg1A/edit</p>
+<p>https://docs.google.com/document/d/1eg3sJTOwtyFhDopKedRD6142CFkDfWp1QvRKXNTPIOc/edit</p>
 <h3> An Image Repository which users can ADD images </h2>
 <li> Private permissions mechanism: Users have to sign up or log in before they can upload image(s) </li>
 <li> After users upload images, they will see the images they uploaded displayed on the screen and they can right click to access the images</li>
