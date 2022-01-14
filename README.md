@@ -6,14 +6,14 @@
 <li> With security mechanism uploading and stored images</li>
 
 <h2>How to run the App</h2>
-<p>Clone this repository</p>
-<p>Run pip install -r requirements.txt</p>
-<p>Run python manage.py runserver</p>
-<p>Open your browser and go to 127.0.0.1:80</p>
+<p>1. Clone this repository</p>
+<p>2. Run pip install -r requirements.txt</p>
+<p>3. Run python manage.py runserver</p>
+<p>4. Open your browser and go to 127.0.0.1:80</p>
 
 <h2>How to run the Test</h2>
-<p>pip install django-utils-six</p>
-<p>Run python manage.py test image</p>
+<p>1. pip install django-utils-six</p>
+<p>2. Run python manage.py test image</p>
 
 <h2>Technology</h2>
 
