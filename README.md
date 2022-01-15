@@ -10,7 +10,7 @@
 <p>1. Clone this repository</p>
 <p>2. Run pip install -r requirements.txt</p>
 <p>3. Run python manage.py runserver</p>
-<p>4. Open your browser and go to 127.0.0.1:80</p>
+<p>4. Open your browser and go to http://127.0.0.1:8000/</p>
 
 <h2>How to run the Test</h2>
 <p>1. pip install django-utils-six</p>
